@@ -24,6 +24,7 @@ export class PhotoService {
   private platform: Platform;
 
   constructor(platform: Platform) {
+    console.log("platform", platform)
     this.platform = platform;
   }
 
