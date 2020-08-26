@@ -24,7 +24,7 @@ export class PhotoService {
   private platform: Platform;
 
   constructor(platform: Platform) {
-    console.log("platform", platform)
+    console.log("platform", platform.is('cordova'))
     this.platform = platform;
   }
 
